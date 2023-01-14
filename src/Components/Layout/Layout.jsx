@@ -22,7 +22,7 @@ const LayoutPage = () => {
       <Col span={24}>
         {" "}
         <div>
-          <Layout style={{ height: "680px" }}>
+          <Layout style={{ height: "700px" }}>
             <Sider trigger={null} collapsible collapsed={collapsed}>
               <div className="logo" />
               <Menu
