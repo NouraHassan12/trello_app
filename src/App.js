@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" exact element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/:boardID" element={<LayoutPage />} />
       </Routes>
     </>
